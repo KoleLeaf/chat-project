@@ -1,0 +1,54 @@
+<html>
+
+  <head>
+
+    <title>Chat</title>
+
+
+  </head>
+
+  <body>
+      <div class="homepage-container">
+        <nav>
+          <div class = "nav-button"><a href="homepage">Home</a></div>
+          <div class = "nav-button"><a href="people">About</a></div>
+          <div class = "nav-button"><a href="https://www.google.com/mail">Gmail</a></div>
+          <div class = "nav-button"><a href="chat">Chat</a></div>
+
+
+        </nav>
+<div class= "Chatwelcome">
+  <h1>Welcome To The Chat</h1>
+
+    <% if @error %>
+    <h2><%= @error %></h2>
+</div>
+    <% else %>
+</div>
+
+
+    <% @messages.each do |message| %>
+    <div class="message">
+
+      <p><%= "Message: #{message[0]}" %></p>
+    </div>
+      <% end %>
+      <% end %>
+
+    <div class= "form-container">
+      <form action="/chat" method="POST">
+
+
+        <label for="Message">Message</label>
+
+        <textarea type="textarea" name="Message"></textarea>
+
+
+
+        <button type="submit">Post</button>
+
+
+      </form>
+    </div>
+  </body>
+</html>

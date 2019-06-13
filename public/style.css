@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+}
+
+h1{
+ color: green;
+}
+
+a {
+  color: white;
+  line-height: 30px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+  transform: scale(1.2);
+}
+nav {
+  background-color: black;
+  padding:  10px 0% 10px 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-button:hover {
+  border: 1px solid red;
+}
+
+.nav-button {
+  background-color: purple;
+  height: 30px;
+  border-radius: 15%;
+}
+
+
+}
+
+div.left-side {
+  width: 50%;
+  border: 2px solid black;
+}
+
+.about-photo {
+  display: block;
+  margin: 0 auto;
+  border: 6px solid black;
+}
+
+
+.about-title {
+  text-align: center;
+}
+
+.about-label {
+  text-align: center;
+}
+
+
+
+.product {
+  width: 400px;
+  border: 2px solid blue;
+  margin: 10px 5px 10px 20px;
+}
+
+.product-photo {
+  display: block;
+  margin: auto;
+
+}
+
+.product-title{
+  text-align: center;
+
+}
+.product-text{
+  text-align: center;
+  color: #800080;
+}
+
+
+
+
+.homepage-container {
+  background-image: url("./Photos/black back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100% !important;
+}
+
+
+.Chatwelcome {
+  text-align: center;
+  color: green;
+  font-size: 1.3em;
+}
+
+
+
+
+.welcome {
+  color: #800080;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.message {
+
+  text-align: left;
+  color: green;
+  font-size: 1.3em;
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form{
+  color: green;
+}
+
+.form-container {
+  margin-left: 35%;
+}
+
+.homepage-background {
+background-image: url("./Photos/background.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 1000px;
+}
+
+.about-background{
+background-image: url("./Photos/background2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 1000px;
+}
+
+.about-text {
+  color: red;
+  text-align: center;
+}
